@@ -1,0 +1,7 @@
+<!--Incluyendo el header-->
+<?php include ("templates/header.php"); ?>
+
+
+
+<!--Incluyendo el footer-->
+<?php include ("templates/footer.php"); ?>

@@ -1,6 +1,14 @@
 <?php
-//session_start();
+if(!isset($_SESSION)){
+    session_start();
+}
+
 $url_base = "http://localhost/empleados/";
+
+if(!isset($_SESSION['usuario'])){
+    header("Location:".$url_base."login.php");
+  }
+
 ?>
 
 <!doctype html>
